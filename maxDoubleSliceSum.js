@@ -9,11 +9,9 @@ function maxDoubleSliceSum(A){
   }
 
   let max = 0
-
   for (let m = 1; m < A.length-1; m++){
     max = Math.max(max, k1[m-1]+k2[m+1])
   }
-
   return max
 }
 
