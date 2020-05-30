@@ -1,8 +1,7 @@
 function MissingInteger(A){
-  var min = 1;
+  let min = 1;
   A.sort((a,b) => a-b );
-  console.log(A)
-  for (var i in A) {
+  for (let i in A) {
     if (A[i] > -1 && A[i] == min) {
       min++;
     }
